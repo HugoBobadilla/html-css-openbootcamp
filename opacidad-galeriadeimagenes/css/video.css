@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*, *::before,*::after {
+  box-sizing: inherit;
+}
+
+.video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+}
